@@ -106,8 +106,8 @@
                     let scoreLbl = document.getElementById("lbl_Score");
 
                     scoreLbl.textContent = `Score: ${score}`;
-                    createMatrix(document.getElementById("game").dataset.matrixsize);
                 }
+                createMatrix(document.getElementById("game").dataset.matrixsize);
             }
         }
     </script>
